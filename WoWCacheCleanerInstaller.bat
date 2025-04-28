@@ -1,9 +1,6 @@
 @echo off
 setlocal
 
-:: Initialize variable
-::set "BaseFolder="
-
 :: Read World of Warcraft install path from registry and find data folder
 for /f "tokens=3,* delims= " %%a in ('reg query "HKLM\SOFTWARE\WOW6432Node\Blizzard Entertainment\World of Warcraft" /v InstallPath 2^>nul') do set "BaseFolder=%%a %%b"
 
