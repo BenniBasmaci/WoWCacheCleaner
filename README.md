@@ -9,10 +9,11 @@ https://www.icy-veins.com/wow/news/clear-out-these-wow-folders-and-instantly-fre
 https://www.reddit.com/r/wow/comments/1k45lic/reminder_to_clean_up_wasteful_files_in_your_world/
 
 ## Usage
-Just run the WoWCacheCleanerInstaller.bat as administrator on your Windows machine.
-You can run it from any folder. (e.g. Desktop or Download folder)
+You dont even have to clone the repo. 
+- Download the WoWCacheCleanerInstaller.bat
+- Run WoWCacheCleanerInstaller.bat as administrator
 
-The batch script...
+WoWCacheCleanerInstaller.bat...
 - locates your World of Warcraft folder
 - creates a WoWCacheCleaner.bat in your ProgramData directory which deletes the cache
 - creates a scheduled task that runs that generated script on startup
